@@ -10,18 +10,16 @@ My current research interests primarily focus on understanding and enhancing the
 
 I'm also learning web development and building machine learning software and systems.
 
-
 ## Contact
 
 Contact me by:
 
 - Email: [renovamenzxh@gmail.com](mailto:renovamenzxh@gmail.com)
-- Github: [@Renovamen](https://github.com/Renovamen)
+- Github: [@saul-atomrigs](https://github.com/Renovamen)
 - [Google Scholar](https://scholar.google.com/citations?user=RuW6xgMAAAAJ)
 - Linkedin: [xiaohan-zou](https://www.linkedin.com/in/xiaohan-zou)
 - 知乎: [@西伯利亚大恶龙](https://www.zhihu.com/people/chao-neng-gui-su)
 - Personal Website: [zxh.me](https://zxh.me)
-
 
 ## Résumé
 
