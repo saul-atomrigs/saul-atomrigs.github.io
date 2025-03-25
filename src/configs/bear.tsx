@@ -12,150 +12,78 @@ const bear: BearData[] = [
         file: "markdown/about-me.md",
         icon: "i-la:dragon",
         excerpt: "저는 이러한 사람이에요!"
+      }
+      // {
+      //   id: "github-stats",
+      //   title: "Github Stats",
+      //   file: "markdown/github-stats.md",
+      //   icon: "i-icon-park-outline:github",
+      //   excerpt: "Github에 이런저런 일들을 벌여놓았어요"
+      // },
+      // {
+      //   id: "about-site",
+      //   title: "About This Site",
+      //   file: "markdown/about-site.md",
+      //   icon: "i-octicon:browser",
+      //   excerpt: "이 사이트는 어떻게 만들어졌을까요?"
+      // }
+    ]
+  },
+  {
+    id: "project",
+    title: "Projects",
+    icon: "i-octicon:repo",
+    md: [
+      {
+        id: "retirement-pension-simulator",
+        title: "연금계산기",
+        file: "https://raw.githubusercontent.com/saul-atomrigs/retirement-pension-simulator/main/README.md",
+        icon: "i-heroicons-solid:fire",
+        excerpt: "연금 계산 시뮬레이터",
+        link: "https://github.com/saul-atomrigs/retirement-pension-simulator"
       },
       {
-        id: "github-stats",
-        title: "Github Stats",
-        file: "markdown/github-stats.md",
-        icon: "i-icon-park-outline:github",
-        excerpt: "Github에 이런저런 일들을 벌여놓았어요"
+        id: "income-tax-calculator",
+        title: "소득세 계산기",
+        file: "https://raw.githubusercontent.com/saul-atomrigs/income-tax-calculator/main/README.md",
+        icon: "i-heroicons-solid:fire",
+        excerpt: "소득세 및 환급액 계산기",
+        link: "https://github.com/saul-atomrigs/income-tax-calculator"
       },
       {
-        id: "about-site",
-        title: "About This Site",
-        file: "markdown/about-site.md",
-        icon: "i-octicon:browser",
-        excerpt: "이 사이트는 어떻게 만들어졌을까요?"
+        id: "cafe-pos-application",
+        title: "카페 POS 시스템",
+        file: "https://raw.githubusercontent.com/saul-atomrigs/cafe-pos-application/main/README.md",
+        icon: "i-heroicons-solid:fire",
+        excerpt: "카페 전용 POS기 애플리케이션",
+        link: "https://github.com/saul-atomrigs/cafe-pos-application"
+      },
+      {
+        id: "design-system",
+        title: "Design System",
+        file: "https://raw.githubusercontent.com/saul-atomrigs/design-system/main/README.md",
+        icon: "i-heroicons-solid:fire",
+        excerpt: "디자인 시스템",
+        link: "https://github.com/saul-atomrigs/design-system"
+      },
+      {
+        id: "hangeul",
+        title: "한글 포맷 라이브러리",
+        file: "https://raw.githubusercontent.com/saul-atomrigs/hangeul/main/README.md",
+        icon: "i-heroicons-solid:fire",
+        excerpt: "한글 포맷 라이브러리",
+        link: "https://github.com/saul-atomrigs/hangeul"
+      },
+      {
+        id: "react-utils",
+        title: "React Utils",
+        file: "https://raw.githubusercontent.com/saul-atomrigs/react-utils/main/README.md",
+        icon: "i-heroicons-solid:fire",
+        excerpt: "React 유틸리티 라이브러리",
+        link: "https://github.com/saul-atomrigs/react-utils"
       }
     ]
   }
-  // {
-  //   id: "project",
-  //   title: "Projects",
-  //   icon: "i-octicon:repo",
-  //   md: [
-  //     {
-  //       id: "flint",
-  //       title: "Flint",
-  //       file: "https://raw.githubusercontent.com/Renovamen/flint/main/README.md",
-  //       icon: "i-heroicons-solid:fire",
-  //       excerpt: "A deep learning framework implemented in Numpy...",
-  //       link: "https://github.com/Renovamen/flint"
-  //     },
-  //     {
-  //       id: "portfolio-macos",
-  //       title: "Portfolio macOS",
-  //       file: "https://raw.githubusercontent.com/Renovamen/playground-macos/main/README.md",
-  //       icon: "i-ri:gamepad-line",
-  //       excerpt: "My portfolio website simulating macOS's GUI...",
-  //       link: "https://github.com/Renovamen/playground-macos"
-  //     },
-  //     {
-  //       id: "oh-my-cv",
-  //       title: "Oh, My CV!",
-  //       file: "https://raw.githubusercontent.com/Renovamen/oh-my-cv/main/README.md",
-  //       icon: "i-ri:newspaper-fill",
-  //       excerpt: "Write your curriculum vitae / resume in Markdown online...",
-  //       link: "https://ohmycv.app"
-  //     },
-  //     {
-  //       id: "oh-vue-icons",
-  //       title: "Oh, Vue Icons!",
-  //       file: "https://raw.githubusercontent.com/Renovamen/oh-vue-icons/master/README.md",
-  //       icon: "i-fa-brands:vuejs",
-  //       excerpt: "Importing icons from different icon packs in Vue easily...",
-  //       link: "https://oh-vue-icons.js.org"
-  //     },
-  //     {
-  //       id: "gungnir",
-  //       title: "Gungnir",
-  //       file: "https://raw.githubusercontent.com/Renovamen/vuepress-theme-gungnir/main/README.md",
-  //       icon: "i-akar-icons:sword",
-  //       excerpt: "A simple and beautiful blog theme for VuePress...",
-  //       link: "https://vuepress-theme-gungnir.vercel.app"
-  //     },
-  //     {
-  //       id: "metallic",
-  //       title: "Metallic",
-  //       file: "https://raw.githubusercontent.com/Renovamen/metallic/master/README.md",
-  //       icon: "i-icon-park-outline:heavy-metal",
-  //       excerpt: "A meta-learning library base on PyTorch...",
-  //       link: "https://github.com/Renovamen/metallic"
-  //     },
-  //     {
-  //       id: "text-classification",
-  //       title: "Text Classification",
-  //       file: "https://raw.githubusercontent.com/Renovamen/Text-Classification/master/README.md",
-  //       icon: "i-gg:format-text",
-  //       excerpt: "PyTorch implementation of text classificaiton models...",
-  //       link: "https://github.com/Renovamen/Text-Classification"
-  //     },
-  //     {
-  //       id: "speech-emotion-recognition",
-  //       title: "Speech Emotion",
-  //       file: "https://raw.githubusercontent.com/Renovamen/Speech-Emotion-Recognition/master/README.md",
-  //       icon: "i-ant-design:audio-filled",
-  //       excerpt: "Speech emotion recognition using Keras and sklearn...",
-  //       link: "https://github.com/Renovamen/Speech-Emotion-Recognition"
-  //     },
-  //     {
-  //       id: "pcalg-py",
-  //       title: "PC Algorithm",
-  //       file: "https://raw.githubusercontent.com/Renovamen/pcalg-py/master/README.md",
-  //       icon: "i-tabler:atom-2",
-  //       excerpt: "Implement PC algorithm in Python...",
-  //       link: "https://github.com/Renovamen/pcalg-py"
-  //     },
-  //     {
-  //       id: "midgard",
-  //       title: "Midgard",
-  //       file: "https://raw.githubusercontent.com/Renovamen/midgard/master/README.md",
-  //       icon: "i-bx:game",
-  //       excerpt: "An interactive version of my resume, powered by Vue...",
-  //       link: "https://resume.zxh.io/"
-  //     },
-  //     {
-  //       id: "image-captioning",
-  //       title: "Image Captioning",
-  //       file: "https://raw.githubusercontent.com/Renovamen/Image-Captioning/master/README.md",
-  //       icon: "i-bi:image-fill",
-  //       excerpt: "PyTorch implementation of image captioning models...",
-  //       link: "https://github.com/Renovamen/Image-Captioning"
-  //     },
-  //     {
-  //       id: "wordle-helper",
-  //       title: "Wordle Helper",
-  //       file: "https://raw.githubusercontent.com/Renovamen/wordle-helper/main/README.md",
-  //       icon: "i-bi:grid-1x2",
-  //       excerpt: "Help you solve Wordle puzzles...",
-  //       link: "https://wordle.zxh.io"
-  //     },
-  //     {
-  //       id: "cube-solver",
-  //       title: "Cube Solver",
-  //       file: "https://raw.githubusercontent.com/Renovamen/Just-a-Cube/master/README.md",
-  //       icon: "i-bx:cube",
-  //       excerpt: "A rubik's cube solver (layer-by-layer & two-phase)...",
-  //       link: "https://cube.zxh.io"
-  //     },
-  //     {
-  //       id: "alkaid",
-  //       title: "Alkaid",
-  //       file: "https://raw.githubusercontent.com/Renovamen/alkaid/main/README.md",
-  //       icon: "i-simple-icons:stellar",
-  //       excerpt: "Minimal reinforcement-learning toolbox for PyTorch...",
-  //       link: "https://github.com/Renovamen/alkaid"
-  //     },
-  //     {
-  //       id: "fishmail",
-  //       title: "Fishmail",
-  //       file: "https://raw.githubusercontent.com/Renovamen/Fishmail/master/README.md",
-  //       icon: "i-game-icons:fish-escape",
-  //       excerpt: "上班的时候装作在 Gmail 上查邮件的样子看知乎摸鱼...",
-  //       link: "https://fishmail.vercel.app"
-  //     }
-  //   ]
-  // }
 ];
 
 export default bear;
